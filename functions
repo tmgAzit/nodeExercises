@@ -1,0 +1,10 @@
+const names = require('./data.js');
+
+function sayHi(name) {
+  console.log(`Hi ${name}`);
+}
+
+console.log(names);
+sayHi('susan');
+sayHi(names.john);
+sayHi(names.peter);
